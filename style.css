@@ -1,0 +1,50 @@
+body{
+
+    background-image: url('recipe_imgs/victoria-shes-Qa29U4Crvn4-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: orange;
+    background-size: auto;
+    background-size: cover; 
+    text-align: center;
+
+}
+
+header{
+    color: crimson;
+    font-size: 32px;
+    
+}
+
+header .image{
+    width: 450px;
+    height: auto;
+}
+
+h2{
+    color: crimson;
+}
+
+ul{
+    font-size: 22px;
+    color: blueviolet;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul.custom-bullets {
+    list-style-type: none; /* Remove default bullets */
+  }
+  
+  ul.custom-bullets li::before {
+    content: "•"; /* Add custom bullet character */
+    color: crimson; /* Change bullet color */
+    display: inline-block;
+    width: 1em; /* Adjust as needed */
+    margin-left: -1em; /* Adjust as needed */
+  }
+
+  li{
+    color: blueviolet;
+  }
