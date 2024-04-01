@@ -1,17 +1,23 @@
 body{
-
-    background-image: url('recipe_imgs/victoria-shes-Qa29U4Crvn4-unsplash.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: orange;
-    background-size: auto;
-    background-size: cover; 
     text-align: center;
+    background-image: url('recipe_imgs/food-1898194_1280.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
 
+.menu{
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.521);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header{
-    color: crimson;
+    color: rgba(65, 13, 6, 0.781);
     font-size: 32px;
     
 }
@@ -22,12 +28,12 @@ header .image{
 }
 
 h2{
-    color: crimson;
+    color: rgba(65, 13, 6, 0.781);
 }
 
 ul{
     font-size: 22px;
-    color: blueviolet;
+    
 }
 ul {
     list-style: none; /* Remove default bullets */
@@ -35,16 +41,14 @@ ul {
   
   ul.custom-bullets {
     list-style-type: none; /* Remove default bullets */
+    text-align:justify;
   }
   
   ul.custom-bullets li::before {
     content: "•"; /* Add custom bullet character */
-    color: crimson; /* Change bullet color */
+    color: rgba(65, 13, 6, 0.781); /* Change bullet color */
     display: inline-block;
     width: 1em; /* Adjust as needed */
-    margin-left: -1em; /* Adjust as needed */
+    margin-left: auto; /* Adjust as needed */
   }
 
-  li{
-    color: blueviolet;
-  }

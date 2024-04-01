@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+.menu{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.521);
+    margin-left: auto;
+    margin-right: auto;
+  }
+ul{
+    font-size: 22px;
+    
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+li.od-list{
+    color: rgb(49, 15, 15);
+}
+
+p{
+    color: rgb(49, 15, 15);
+}
+  
+ul.custom-bullets {
+    list-style-type: none; /* Remove default bullets */
+    text-align:justify;
+    padding-right: 10px;
+  }
+  
+ul.custom-bullets li::before {
+    content: "•"; /* Add custom bullet character */
+    color: rgba(65, 13, 6, 0.781); /* Change bullet color */
+    display: inline-block;
+    width: 1em; /* Adjust as needed */
+    margin-left: auto; /* Adjust as needed */
+  }
+header{
+    color: rgba(65, 13, 6, 0.781);
+    font-size: 32px;
+    
+}
+
+header .image{
+    width: 450px;
+    height: auto;
+}
+
+h2{
+    color: rgba(65, 13, 6, 0.781);
+}
+li.od-list {
+    list-style-type: none; /* Remove default bullets */
+    text-align:justify;
+  }
+  
+li.od-list li::before {
+    content: "•"; /* Add custom bullet character */
+    color: rgba(65, 13, 6, 0.781); /* Change bullet color */
+    display: inline-block;
+    width: 1em; /* Adjust as needed */
+    margin-left: auto; /* Adjust as needed */
+  }
+  h4{
+    color: rgba(65, 13, 6, 0.781);
+  }
