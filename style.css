@@ -11,20 +11,21 @@ body{
 
 .menu{
   width: 80%;
+  max-width: 800px;
   background-color: rgba(255, 255, 255, 0.521);
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 90%; /* Adjust width for smaller screens */
+  }
 }
 
 header{
     color: rgba(65, 13, 6, 0.781);
     font-size: 32px;
     
-}
-
-header .image{
-    width: 450px;
-    height: auto;
 }
 
 h2{
@@ -39,16 +40,17 @@ ul {
     list-style: none; /* Remove default bullets */
   }
   
-  ul.custom-bullets {
+ul.custom-bullets {
     list-style-type: none; /* Remove default bullets */
     text-align:justify;
   }
   
-  ul.custom-bullets li::before {
+ul.custom-bullets li::before {
     content: "•"; /* Add custom bullet character */
     color: rgba(65, 13, 6, 0.781); /* Change bullet color */
     display: inline-block;
     width: 1em; /* Adjust as needed */
     margin-left: auto; /* Adjust as needed */
   }
+
 
