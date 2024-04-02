@@ -10,6 +10,7 @@ body{
 .menu{
     width: 90%;
     background-color: rgba(255, 255, 255, 0.521);
+    padding: 2px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -51,6 +52,11 @@ header{
 h2{
     color: rgba(65, 13, 6, 0.781);
 }
+
+li{
+  font-size: 18px;
+}
+
 li.od-list {
     list-style-type: none; /* Remove default bullets */
     text-align:justify;
@@ -63,6 +69,18 @@ li.od-list li::before {
     width: 1em; /* Adjust as needed */
     margin-left: auto; /* Adjust as needed */
   }
-  h4{
+h4{
     color: rgba(65, 13, 6, 0.781);
+    font-size: 20px;
+  }
+#Headline{
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+hr {
+    height: 2px;
+    width: 75%;
+    background-color: brown;
+    border-color: brown;
   }
