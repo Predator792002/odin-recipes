@@ -53,4 +53,29 @@ ul.custom-bullets li::before {
     margin-left: auto; /* Adjust as needed */
   }
 
+  hr {
+    height: 2px;
+    width: 75%;
+    background-color: brown;
+    border-color: brown;
+  }
+  #Headline{
+    margin-bottom: 5px;
+  }
+.address{
+  color: rgba(65, 13, 6, 0.781);
+  margin-top: 5px;
+  font-weight: bold;
+}
+a{
+  color: brown;
+}
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: rgb(77, 34, 10);
+}
+
 
