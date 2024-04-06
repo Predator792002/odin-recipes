@@ -9,7 +9,7 @@ body{
 }
 
 .lasagna-body{
-  background-image: url('../recipe_imgs/maryam-jahanmehr-g_BxoUpg1eI-unsplash.jpg');
+  background-image:linear-gradient(rgba(14, 79, 122, 0.822), rgba(245, 218, 62, 0.469)), url('../recipe_imgs/maryam-jahanmehr-g_BxoUpg1eI-unsplash.jpg');
 }
 
 .macaroni-body{
