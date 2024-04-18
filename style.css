@@ -7,9 +7,11 @@ body{
     background-size: cover;
     font-style: italic;
     font-family: "Times New Roman", Times, serif;
+    
 }
 
 .menu{
+  display: block;
   width: 80%;
   max-width: 800px;
   background-color: rgba(255, 255, 255, 0.521);
@@ -17,6 +19,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 768px) {
   .menu {
     width: 90%; /* Adjust width for smaller screens */
@@ -24,13 +27,13 @@ body{
 }
 
 header{
-    color: rgba(65, 13, 6, 0.781);
+    color: rgb(38, 134, 102);
     font-size: 32px;
     
 }
 
 h2{
-    color: rgba(65, 13, 6, 0.781);
+    color: rgb(38, 134, 102);
 }
 
 ul{
@@ -46,39 +49,83 @@ ul.custom-bullets {
     text-align:justify;
   }
   
-ul.custom-bullets li::before {
-    content: "•"; /* Add custom bullet character */
-    color: rgba(65, 13, 6, 0.781); /* Change bullet color */
+/* ul.custom-bullets li::before {
+    content: ""; 
+    color: rgba(65, 13, 6, 0.781); 
     display: inline-block;
-    width: 1em; /* Adjust as needed */
-    margin-left: auto; /* Adjust as needed */
-  }
+    width: 1em; 
+    margin-left: auto; 
+  } 
+*/
 
 hr {
     height: 2px;
     width: 75%;
-    background-color: brown;
-    border-color: brown;
+    background-color: rgb(6, 77, 66);
+    border-color: rgb(6, 77, 66);
   }
+
 #Headline{
     margin-bottom: 5px;
     margin-top: 5px;
   }
 .address{
-  color: rgba(65, 13, 6, 0.781);
+  color: rgb(38, 134, 102);
   margin-top: 4px;
   margin-bottom: 5px;
   font-weight: bold;
 }
+
 a{
-  color: brown;
+  color: rgb(38, 134, 102);
+  text-decoration: none; 
 }
 a:visited {
-  color: brown;
+  color: rgb(6, 77, 66);
 }
 
 a:hover {
-  color: rgb(77, 34, 10);
+  color: rgb(255, 255, 255);
 }
 
+.recipes{
+  display: inline-block;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('');
+  margin: 8px ;
+  padding: 24px;
+  text-align: center;
+  border: 5px;
+  border-color: aquamarine;
+}
+
+.pasta{
+  display: inline-block;
+  background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
+  margin: 8px ;
+  padding: 14px 32px;
+}
+.macaroni{
+  display: inline-block;
+  background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
+  margin: 8px ;
+  padding: 14px;
+}
+.lasagna{
+  display: inline-block;
+  background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
+  margin: 8px ;
+  padding: 14px 19px;
+}
+.ramen{
+  display: inline-block;
+  background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
+  margin: 8px ;
+  padding: 14px 26px;
+}
+.tacos{
+  display: inline-block;
+  background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
+  margin: 8px ;
+  padding: 14px 32px;
+}
 
