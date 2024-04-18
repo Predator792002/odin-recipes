@@ -18,6 +18,7 @@ body{
   padding: 2px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 9px;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,6 +64,7 @@ hr {
     width: 75%;
     background-color: rgb(6, 77, 66);
     border-color: rgb(6, 77, 66);
+    border-radius: 9px;
   }
 
 #Headline{
@@ -96,6 +98,7 @@ a:hover {
   text-align: center;
   border: 5px;
   border-color: aquamarine;
+  border-radius: 9px;
 }
 
 .pasta{
@@ -103,29 +106,34 @@ a:hover {
   background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
   margin: 8px ;
   padding: 14px 32px;
+  border-radius: 9px;
 }
 .macaroni{
   display: inline-block;
   background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
   margin: 8px ;
   padding: 14px;
+  border-radius: 9px;
 }
 .lasagna{
   display: inline-block;
   background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
   margin: 8px ;
   padding: 14px 19px;
+  border-radius: 9px;
 }
 .ramen{
   display: inline-block;
   background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
   margin: 8px ;
   padding: 14px 26px;
+  border-radius: 9px;
 }
 .tacos{
   display: inline-block;
   background-image: linear-gradient(90deg, rgba(185, 250, 241, 0.601) , rgba(254, 254, 254, 0.601), rgba(185, 250, 241, 0.601)), url('');
   margin: 8px ;
   padding: 14px 32px;
+  border-radius: 9px;
 }
 
