@@ -30,7 +30,7 @@ body{
 
 .menu{
     width: 90%;
-    background-color: rgba(255, 255, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.613);
     padding: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -43,11 +43,11 @@ ul {
     list-style: none; /* Remove default bullets */
   }
 li.od-list{
-    color: rgb(49, 15, 15);
+    color:  rgb(38, 134, 102);
 }
 
 p{
-    color: rgb(49, 15, 15);
+    color:  rgb(38, 134, 102);
 }
   
 ul.custom-bullets {
@@ -58,24 +58,25 @@ ul.custom-bullets {
   
 ul.custom-bullets li::before {
     content: "•"; /* Add custom bullet character */
-    color: rgba(65, 13, 6, 0.781); /* Change bullet color */
+    color: rgb(22, 79, 60); /* Change bullet color */
     display: inline-block;
     width: 1em; /* Adjust as needed */
     margin-left: auto; /* Adjust as needed */
   }
 header{
-    color: rgba(65, 13, 6, 0.781);
+    color: rgb(15, 85, 61);
     font-size: 32px;
     
 }
 
 
 h2{
-    color: rgba(65, 13, 6, 0.781);
+    color: rgb(15, 85, 61);
 }
 
 li{
   font-size: 18px;
+  color: rgb(38, 134, 102);
 }
 
 li.od-list {
@@ -85,13 +86,13 @@ li.od-list {
   
 li.od-list li::before {
     content: "•"; /* Add custom bullet character */
-    color: rgba(65, 13, 6, 0.781); /* Change bullet color */
+    color: rgb(22, 79, 60); /* Change bullet color */
     display: inline-block;
     width: 1em; /* Adjust as needed */
     margin-left: auto; /* Adjust as needed */
   }
 h4{
-    color: rgba(65, 13, 6, 0.781);
+    color: rgb(15, 85, 61);
     font-size: 20px;
   }
 #Headline{
@@ -102,6 +103,6 @@ h4{
 hr {
     height: 2px;
     width: 75%;
-    background-color: brown;
-    border-color: brown;
+    background-color: rgb(8, 59, 41);
+    border-color: rgb(8, 59, 41);
   }
